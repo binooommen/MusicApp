@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
 		finalTime = mediaPlayer.getDuration();
 		duration = (TextView) findViewById(R.id.songDuration);
 		seekbar = (SeekBar) findViewById(R.id.seekBar);
-		songName.setText("Kabhi Jo.mp3");
+		songName.setText("Mandhara Chepundo.mp3");
 		seekbar.setMax((int) finalTime);
 		seekbar.setClickable(false);
 	}
